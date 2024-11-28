@@ -1,0 +1,262 @@
+{
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.acceptSuggestionOnEnter": "off",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontFamily": "Fira Code, Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 13,
+  "editor.formatOnSave": true,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.hover.delay": 500,
+  "editor.inlayHints.enabled": "on",
+  "editor.linkedEditing": true,
+  "editor.minimap.showSlider": "always",
+  "editor.overviewRulerBorder": false,
+  "editor.inlineSuggest.allowQuickSuggestions": "true",
+  // "editor.quickSuggestions": {
+  //   "comments": "inline",
+  //   "other": "inline",
+  //   "strings": "inline"
+  // },
+  "editor.renderLineHighlight": "all",
+  "editor.rulers": [
+    {
+      "color": "#6b6bf33a",
+      "column": 80
+    },
+    {
+      "color": "#6b6bf33a",
+      "column": 120
+    }
+  ],
+  "editor.scrollbar.verticalScrollbarSize": 0,
+  "editor.scrollBeyondLastLine": false,
+  // "editor.semanticHighlighting.enabled": false,
+  "editor.suggest.preview": true,
+  "editor.suggestSelection": "recentlyUsedByPrefix",
+  "editor.tabSize": 2,
+  "editor.tokenColorCustomizations": {
+    "functions": "#f6ff42",
+    "strings": "#61a26a",
+    "numbers": "#f28749db",
+    "comments": "#a0a4b34d",
+    "types": "#7f8effd6",
+    "keywords": "#ff9d00cb",
+    "variables": "#8fd6de",
+    "textMateRules": [
+      {
+        "scope": [
+          "support.class.component",
+          // "entity.name.tag",
+          "support.class.builtin",
+          "support.class.promise"
+        ],
+        "settings": {
+          "foreground": "#6b7aff",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": [
+          "keyword.control",
+          "storage.type",
+          "keyword.operator.expression",
+          "keyword.operator.new",
+          "keyword.operator.assignment",
+          "keyword.operator"
+        ],
+        "settings": {
+          "foreground": "#ff9d00cb"
+        }
+      },
+      {
+        "scope": [
+          "keyword.control.loop",
+          "keyword.operator.expression.of",
+          "keyword.operator.expression.in",
+          "keyword.control.switch"
+        ],
+        "settings": {
+          "fontStyle": "underline"
+        }
+      },
+      {
+        "scope": ["keyword.control.trycatch"],
+        "settings": {
+          "foreground": "#e50fb7de",
+          "fontStyle": "underline"
+        }
+      },
+      {
+        "scope": ["keyword.control.flow", "storage.modifier.async"],
+        "settings": {
+          "foreground": "#00ff77",
+          "fontStyle": "underline"
+        }
+      },
+      {
+        "scope": ["entity.other.attribute-name"],
+        "settings": {
+          "foreground": "#bd7809cb"
+        }
+      },
+      {
+        "scope": ["constant.language.boolean"],
+        "settings": {
+          "foreground": "#ffffff"
+        }
+      },
+      {
+        "scope": ["variable.other.object"],
+        "settings": {
+          "foreground": "#97979b"
+        }
+      }
+    ]
+  },
+  "editor.wordWrap": "on",
+  // "emmet.includeLanguages": {
+  //   "javascript": "javascriptreact",
+  //   "typescript": "typescriptreact"
+  // },
+  "emmet.excludeLanguages": ["markdown", "javascriptreact", "typescriptreact"],
+
+  // "javascript.format.semicolons": "remove",
+  // "javascript.preferences.quoteStyle": "single",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[javascript]": {
+    "editor.maxTokenizationLineLength": 2500,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "terminal.integrated.fontSize": 10,
+  "typescript.format.semicolons": "remove",
+  "typescript.preferences.quoteStyle": "single",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  // "window.menuBarVisibility": "toggle",
+  "workbench.colorCustomizations": {
+    "editor.lineHighlightBackground": "#6b6bf33a",
+    "editorBracketHighlight.foreground1": "#786fff",
+    "editorBracketHighlight.foreground2": "#cf8d13",
+    "editorBracketHighlight.foreground3": "#474aff",
+    "editorBracketHighlight.foreground4": "#FFFF00",
+    "editorBracketHighlight.foreground5": "#2cb2ff",
+    "editorBracketHighlight.foreground6": "#a1a1a1",
+    "editor.background": "#24292e",
+    // "editorBracketMatch.background": "#35006792",
+    // "editorBracketMatch.border": "#FFF",
+    "editorIndentGuide.activeBackground1": "#66ff00",
+    "editorIndentGuide.activeBackground2": "#786fff",
+    "editorIndentGuide.activeBackground3": "#cf8d13",
+    "editorIndentGuide.activeBackground4": "#474aff",
+    "editorIndentGuide.activeBackground5": "#FFFF00",
+    "editorIndentGuide.activeBackground6": "#2cb2ff",
+    "editorIndentGuide.background1": "#4b4646",
+    "minimap.findMatchHighlight": "#66ff00",
+    "minimap.selectionHighlight": "#6b6bf3",
+    "minimap.selectionOccurrenceHighlight": "#e0e0e0",
+
+    // "editor.findMatchBorder": "#a30072",
+    // "editor.findMatchBackground": "#a30072",
+    // "editor.findMatchHighlightBorder": "#a30072",
+    // "editor.findMatchHighlightBackground": "#a30072",
+    // "editor.wordHighlightBackground": "#000000",
+    // "editor.wordHighlightBorder": "#000000",
+    // "editorOverviewRuler.addedForeground": "#0000",
+    // "editorOverviewRuler.deletedForeground": "#0000",
+    // "editorOverviewRuler.errorForeground": "#0000",
+    // "editorOverviewRuler.modifiedForeground": "#0000",
+    "titleBar.activeBackground": "#2a1529",
+    "activityBar.activeBackground": "#7e3d7b",
+    "activityBar.background": "#2a1529",
+    "statusBar.background": "#2a1529",
+    "minimap.warningHighlight": "#000",
+    "minimapSlider.background": "#d1ffff2a",
+    "minimapSlider.hoverBackground": "#d1ffff3a",
+    "tree.indentGuidesStroke": "#a1a1a1"
+    // "minimap.background": "#00000000"
+  },
+  "workbench.startupEditor": "none",
+  "workbench.tree.renderIndentGuides": "always",
+
+  // extensions --------------------------------------------------------
+  "auto-rename-tag.activationOnLanguage": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "color-highlight.languages": ["*", "!html", "!css", "!scss", "!tsx"],
+  "color-highlight.markRuler": false,
+  "jest.autoRun": {
+    "onSave": "test-file",
+    "onStartup": ["all-tests"],
+    "watch": false
+  },
+  // "jest.testExplorer": {
+  //   "enabled": false
+  // },
+  "liveServer.settings.donotShowInfoMsg": true,
+  // "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "editor.inlineSuggest.enabled": true,
+  "svg.previewAll.exclude": "**/node_modules/**",
+  "window.commandCenter": true,
+  "workbench.editor.empty.hint": "hidden",
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": "off"
+  },
+  "codeium.enableConfig": {
+    "*": true,
+    "markdown": true,
+    "dotenv": true
+  },
+  "[svg]": {
+    "editor.defaultFormatter": "jock.svg"
+  },
+  "[dotenv]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "codeium.enableCodeLens": false,
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java"
+  },
+  "[ignore]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "explorer.confirmDragAndDrop": false
+  // "gitlens.menus": {
+  //   "editor": {
+  //     "blame": false,
+  //     "clipboard": true,
+  //     "compare": false,
+  //     "history": false,
+  //     "remote": false
+  //   },
+  //   "editorGroup": false
+  // },
+}
